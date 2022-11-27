@@ -13,7 +13,7 @@ const Users = () => {
       <Route
         path=""
         element={
-          <div>
+          <div className="overflow-hidden">
             <UsersTable people={users} />
             <Paginate totalPage={totalPage} />
           </div>

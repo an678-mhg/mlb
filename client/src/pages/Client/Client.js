@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import PrivateRoute from "../../components/Private/PrivateRoute";
-import TopLoading from "../../components/Loading/TopLoading";
 import Info from "../Info";
 import Search from "../Search";
 import Cart from "../Cart";

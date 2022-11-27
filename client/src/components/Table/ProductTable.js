@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Plus from "../Plus";
 import { img_url } from "../../utils/contans";
 import { toast } from "react-toastify";
-import { deleteProductApi } from "../../api/ProductApi";
+import { deleteProductApi } from "../../api/productApi";
 import { useDispatch } from "react-redux";
 import { deleteProducts } from "../../redux/reducers/productSlice";
 
@@ -34,11 +34,11 @@ export default function ProductTable({ product }) {
   };
 
   return (
-    <div className="flex flex-col overflow-y-auto">
-      <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-        <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-          <div className="shadow border-b">
-            <table className="min-w-full divide-y">
+    <div className="flex flex-col overflow-hidden">
+      <div className="my-2 overflow-hidden sm:-mx-6 lg:-mx-8">
+        <div className="py-2 align-middle overflow-hidden inline-block min-w-full sm:px-6 lg:px-8">
+          <div className="shadow border-b overflow-hidden">
+            <table className="min-w-full divide-y overflow-hidden">
               <thead className="bg-white">
                 <tr>
                   <th

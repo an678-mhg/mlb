@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ProductItem from "./ProductItem";
-import { getProductsApi } from "../../api/ProductApi";
+import { getProductsApi } from "../../api/productApi";
 import LoadingCenter from "../Loading/LoadingCenter";
 import Paginate from "../Paginate";
 import { useSearchParams } from "../../hooks/useSearchParams";

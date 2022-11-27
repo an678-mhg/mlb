@@ -3,7 +3,7 @@ import MarkdownIt from "markdown-it";
 import MdEditor from "react-markdown-editor-lite";
 import "react-markdown-editor-lite/lib/index.css";
 import { uploadMultiFile, uploadOneFile } from "../../api/uploadApi";
-import { addProduct } from "../../api/ProductApi";
+import { addProduct } from "../../api/productApi";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import Loading from "../Loading/Loading";

@@ -4,7 +4,7 @@ import Configuration from "../components/Products/Configuration";
 import Description from "../components/Products/Description";
 import ProductInfo from "../components/Products/ProductInfo";
 import SliderPriviewImg from "../components/SliderPreview/SliderPriviewImg";
-import { getOneProductApi } from "../api/ProductApi";
+import { getOneProductApi } from "../api/productApi";
 import Loading from "../components/Loading/Loading";
 import ProductList from "../components/Products/ProductsList";
 import Reviews from "../components/Reviews/Reviews";

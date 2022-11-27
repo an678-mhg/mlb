@@ -9,7 +9,7 @@ import {
   getOneProductApi,
   getDescriptionApi,
   updateProductApi,
-} from "../../api/ProductApi";
+} from "../../api/productApi";
 import { useDispatch } from "react-redux";
 import { updateProduct } from "../../redux/reducers/productSlice";
 

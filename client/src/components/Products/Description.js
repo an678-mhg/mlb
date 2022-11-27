@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getDescriptionApi } from "../../api/ProductApi";
+import { getDescriptionApi } from "../../api/productApi";
 
 const Description = () => {
   const htmlRef = useRef(null);

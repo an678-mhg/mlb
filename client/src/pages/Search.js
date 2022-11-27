@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { searchProductApi } from "../api/ProductApi";
+import { searchProductApi } from "../api/productApi";
 import LoadingCenter from "../components/Loading/LoadingCenter";
 import ProductItem from "../components/Products/ProductItem";
 import { useSearchParams } from "../hooks/useSearchParams";

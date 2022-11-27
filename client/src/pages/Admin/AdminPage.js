@@ -15,7 +15,7 @@ import {
   setTotalUsers,
 } from "../../redux/reducers/managerUsers";
 import { useDispatch } from "react-redux";
-import { getProductsApi } from "../../api/ProductApi";
+import { getProductsApi } from "../../api/productApi";
 import {
   addProduct,
   setTotalPageProducts,
