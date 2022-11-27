@@ -1,0 +1,26 @@
+.circle-loading {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  position: relative;
+  margin: 0 auto;
+  --color: #6a5af9;
+}
+.circle-loading:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: 5px solid transparent;
+  border-right-color: var(--color);
+  border-bottom-color: var(--color);
+  animation: circleLoading 1s forwards infinite linear;
+}
+@keyframes circleLoading {
+  to {
+    transform: rotate(360deg);
+  }
+}
