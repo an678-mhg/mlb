@@ -2,7 +2,7 @@
 
 A sales website
 
-Live demo: [https://mlb-pi.vercel.app/](https://mlb-pi.vercel.app/)
+Live demo: [https://mlb-nine.vercel.app/](https://mlb-nine.vercel.app/)
 
 ### Preview
 
@@ -17,6 +17,6 @@ Live demo: [https://mlb-pi.vercel.app/](https://mlb-pi.vercel.app/)
 - MongoDB
 - ExpressJs
 
-### Server: 
+### Server:
 
 - [https://github.com/an678-mhg/MLB-BackEnd](https://github.com/an678-mhg/MLB-BackEnd)
